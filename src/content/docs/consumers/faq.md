@@ -9,7 +9,11 @@ If your question isn't listed below, consider asking on the [Open Source Mainten
 
 ### Q: Who pays the fee?
 
-All individuals and organizations that generate revenue and all government agencies that use an Open Source Project which requires a Maintenance Fee must pay the fee. Also, Open Source Projects that require a Maintenance Fee, must pay any fees required by their dependencies.
+Individuals and organizations that use an Open Source Project's binary releases as part of revenue generating activities and meet the minimum annual revenue threshold (typically USD $10,000) must pay the Maintenance Fee.
+
+Government agencies are treated similarly when they use projects that require a Maintenance Fee, regardless of how their funding is structured.
+
+Open Source Projects that require a Maintenance Fee and meet the minimum revenue threshold must also pay any Maintenance Fees required by their dependencies.
 
 ### Q: How much is the fee?
 
@@ -21,7 +25,9 @@ No. An organization only needs to pay the fee once and all of its products are c
 
 ### Q: Do I have to pay the fee if my organization makes money but our product that uses the project is offered for free?
 
-Yes. The requirement to pay the Maintenance Fee is based on whether the organization generates revenue, not whether the products they offer are free or not. For example, the product may be offered for free but the organization may make money via advertising or selling a service where the product is a loss leader.
+Yes. The requirement to pay the Maintenance Fee is based on whether the software is used as part of revenue generating activities and whether the organization meets the minimum revenue threshold, not on whether the product itself is sold.
+
+For example, a product may be offered for free while generating revenue through advertising, lead generation, or paid services. In such cases, the Maintenance Fee applies.
 
 ### Q: If I use a project and that project depends on other projects do I need to pay all of them?
 
@@ -65,7 +71,7 @@ That's not a question. But it is true that money won't solve every problem Open 
 
 ### Q: Do I have to pay my dependencies if my Open Source project does not make enough revenue?
 
-Absolutely not. Until your project makes enough revenue to pay Maintenance Fees for your dependencies, you do not need to pay.
+No. Until your project makes enough revenue to pay Maintenance Fees for your dependencies, typically USD $10,000 annually, you do not need to pay.
 
 ### Q: My Open Source project takes sponsorships, do I need to pay a fee?
 
