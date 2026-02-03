@@ -33,17 +33,17 @@ For example, a product may be offered for free while generating revenue through 
 
 No. You only pay the Maintenance Fee to the projects you directly reference. Your relationship is only with the projects you choose to use. The maintainers of those projects may choose to depend on other projects and, if so, there is a relationship between the maintainer and the next-level of dependencies. And so on, and so on. In the end, the dependency choices other maintainers make do not impact your Maintenance Fee, even though they will impact your product.
 
-### Q: Do I have to pay additional for newer versions of the project?
+### Q: Do I have to pay for newer versions of the project?
 
-No. As long as you pay the fee, you are entitled to all available versions.
+No. As long as you pay the Maintenance Fee, you are entitled to all available versions.
 
 ### Q: How long do I have to pay the fee?
 
-You pay the Maintenance Fee as long as you use the project.
+You pay the Maintenance Fee for as long as you use the project's maintained binary releases.
 
 ### Q: Can I pay by yearly invoice?
 
-Every project can decide how it will accept Maintenance Fee payments. [GitHub Sponsors](https://github.com/sponsors) is a popular option with very low fees for credit card payments and support for paying by invoice (read the [invoice documentation](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/paying-for-github-sponsors-by-invoice) for its requirements).
+Every project can decide how it will accept Maintenance Fee payments. [GitHub Sponsors](https://github.com/sponsors) is a popular option with very low fees for credit card payments and support for paying by invoice (read the [invoice documentation](https://resources.github.com/open-source-maintenance-fee-through-github-sponsors/) for its requirements).
 
 ### Q: What if I don't want to pay the Maintenance Fee?
 
@@ -51,7 +51,7 @@ That's fine. You can download the project's source code and follow the Open Sour
 
 Do not download releases. Do not reference packages via a package manager. Do not use anything other than the source code released under the Open Source license.
 
-Also, if you choose to not pay the Maintenance Fee, but find yourself returning to check on the status of issues or review answers to questions others ask, you are still _using_ the project and _should_ pay the Maintenance Fee.
+If you choose not to pay the Maintenance Fee, you should avoid relying on the project's maintained binary releases and related services.
 
 ### Q: I paid the fee, why aren't the maintainers fixing my bugs and answering my questions now?
 
@@ -65,6 +65,30 @@ Donations are a great way to reward maintainers for exemplary work. But donation
 
 That's not a question. But it is true that money won't solve every problem Open Source Projects face. However, paying maintainers is a very direct incentive to encourage them to keep their projects running. By keeping their projects running, more users may start paying the Maintenance Fee, again encouraging the maintainers to keep the project running. It's a virtuous feedback loop.
 
+--- 
+
+## Questions about the CRA and the Open Source Maintenance Fee (OSMF)
+
+### Q: Does paying the Open Source Maintenance Fee (OSMF) make a project "CRA compliant"?
+
+A: No. The OSMF is not a compliance program. It is a way for organizations that use binary releases in revenue generating contexts to contribute back to the projects they depend on. CRA compliance is the responsibility of organizations that place products on the EU market. Paying the OSMF does not transfer that responsibility to maintainers.
+
+### Q: Does an OSMF maintainer have additional obligations under the EU Cyber Resilience Act (CRA)?
+
+A: No. Maintainers who participate in OSMF remain under the same CRA rules as any other Open Source maintainer. Publishing source code under an OSI-approved license remains outside CRA scope, and optional binary releases remain "as-is" convenience builds. The Maintenance Fee is not a license fee and does not transform the project into a commercial manufacturer, importer, or distributor under the CRA.
+
+### Q: If my organization pays the OSMF, can we claim CRA conformity on that basis?
+
+A: No. CRA conformity requires your organization to perform its own assessment and documentation for products you place on the EU market. Paying the OSMF does not provide certification, warranties, or CE marking. It simply supports maintainers so they can continue delivering timely fixes and improvements.
+
+### Q: Why should we pay the OSMF if it doesn't provide CRA compliance?
+
+A: Because your organization benefits from using the project's binaries in revenue generating products. Paying the OSMF helps maintainers cover the cost of responsible stewardship—such as fixing security issues, providing timely patches, and sustaining long-term development. While this does not fulfill CRA obligations on your behalf, it strengthens the software you rely on to meet them.
+
+### Q: Who is responsible for CRA compliance?
+
+A: The organization that places a product on the EU market is responsible for CRA compliance. If your company incorporates Open Source into products you distribute or sell in the EU, you must ensure compliance. Open Source maintainers (whether or not they participate in OSMF) do not carry that responsibility.
+
 ---
 
 ## Questions from Open Source maintainers that depend on other projects that require a fee.
@@ -75,7 +99,7 @@ No. Until your project makes enough revenue to pay Maintenance Fees for your dep
 
 ### Q: My Open Source project takes sponsorships, do I need to pay a fee?
 
-If the sponsorships are donations (i.e. not required in any way), they are not revenue and the Maintenance Fee does not have to be paid. If the sponsorships are required (for example, by requiring a Maintenance Fee), then the sponsorships are revenue and the fee does need to be paid.
+If the sponsorships are donations (i.e., voluntary and not required for access or use), they are not revenue and the Maintenance Fee does not have to be paid. If the sponsorships are required (for example, by requiring a Maintenance Fee), then the sponsorships are revenue and the fee does need to be paid.
 
 ### Q: Do I need to pay a fee for a revenue generating Open Source project's dependencies if I'm just a contributor?
 
