@@ -9,7 +9,7 @@ If your question isn't listed below, consider asking on the [Open Source Mainten
 
 ### Q: Who pays the fee?
 
-Individuals and organizations that use an Open Source Project's binary releases as part of revenue generating activities and meet the minimum annual revenue threshold (typically USD $10,000) must pay the Maintenance Fee.
+Individuals and organizations that use an Open Source Project's binary releases as part of revenue generating activities and meet the minimum annual revenue threshold (typically US$10,000) must pay the Maintenance Fee.
 
 Government agencies are treated similarly when they use projects that require a Maintenance Fee, regardless of how their funding is structured.
 
@@ -95,7 +95,7 @@ A: The organization that places a product on the EU market is responsible for CR
 
 ### Q: Do I have to pay my dependencies if my Open Source project does not make enough revenue?
 
-No. Until your project makes enough revenue to pay Maintenance Fees for your dependencies, typically USD $10,000 annually, you do not need to pay.
+No. Until your project makes enough revenue to pay Maintenance Fees for your dependencies, you do not need to pay.
 
 ### Q: My Open Source project takes sponsorships, do I need to pay a fee?
 
