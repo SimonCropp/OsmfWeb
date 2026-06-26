@@ -26,6 +26,7 @@ export default defineConfig({
         './src/assets/custom.css',
         './src/assets/fonts/font-face.css',
       ],
+      disable404Route: true,
       components: {
         Head: './src/components/starlight/Head.astro',
       },
@@ -35,11 +36,11 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Consumers',
-          autogenerate: { directory: 'consumers' },
+          items: [{ autogenerate: { directory: 'consumers' } }],
         },
         {
           label: 'Maintainers',
-          autogenerate: { directory: 'maintainers' },
+          items: [{ autogenerate: { directory: 'maintainers' } }],
         },
       ],
     }),
